@@ -7,6 +7,8 @@ const rl = readline.createInterface({
 
 let profile = {};
 
+//callback hell
+
 rl.question('What\'s your name? ', (response) => {
   profile["name"] = response;
   rl.question('What\'s an activity you like doing? ', (response) => {
